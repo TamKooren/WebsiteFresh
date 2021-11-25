@@ -1,0 +1,60 @@
+body {
+    background-color: royalblue;
+    font-size: 12;
+}
+
+h1 {
+    text-align: center;
+    color:gold;
+    opacity: 0.5;
+}
+h3 {
+    color:gold;
+    font-style: italic;
+    opacity: 0.5;
+}
+
+center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    color: rgb(8, 174, 230);
+    
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border: solid 5px white;
+}
+
+a { 
+    color: black;
+    text-align: center;
+    line-height: 28px;
+    
+}
+a:hover {
+    color: gold;
+}
+@media (min-width: 1024px) {
+    body{
+        background-color: sandybrown;
+        color: red;
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+    
+    
+
+/*
+a:visited {
+    color: white;
+}*/
